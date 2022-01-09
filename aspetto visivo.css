@@ -1,0 +1,75 @@
+body,
+html{padding: 0;margin: 0;}
+
+/*sfondo delle varie pagine*/
+body{background: #FFFFF0  } 
+
+/*colore parola profilo*/
+h1{color: #6B705C;}
+
+/*colore parola Curriculum interattivo, pagina sito personale e Home*/
+i1{color: #a5a58d ;}
+
+/*colore linea */
+i2{color: #b7b7a4 ;}
+
+/*colore frase-link (comprende tutti i link) */
+a{color: black;}
+
+/*gestiione pulsanti di navigazione laterali*/
+#mySidenav a {
+    position: absolute;  /* posizionamento rispetto alla finestra del browser */
+    left: -103px;   /* posizionamento menu fuori dallo schermo */
+    transition: 0.3s;   /* transizione al passaggio del mause */
+    padding: 15px;   /* 15px imbbottitura */
+    width: 110px;   /* impostazione della lunghezza */
+    text-decoration: none;  /* rimozione sottolineatura */
+    font-size: 20px;  /* dimenzione del carattere */
+    color: white;   /* colore testo */
+    border-radius: 0 5px 5px 0;  /*Angoli arrotondati in alto a destra e in basso a destra*/
+  }
+  
+  #mySidenav a:hover {
+    left: 0;  /*Al passaggio del mouse, fai apparire gli elementi come dovrebbero*/
+  }
+  
+  /* vari colori dei button */
+  #home {
+    top: 20px;
+    background-color: #cb997e;  /* ottone antico*/
+  }
+  
+  #experience {
+    top: 80px;
+    background-color: #ddbea9;   /*sabbia del deserto*/
+  }
+  
+  #ability {
+    top: 140px;
+    background-color: #ffe8d6;   /*champagne rosa*/
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #b7b7a4;   /*griggio cenere*/
+  }
+
+/*foto con bordo,paggina sito personale e home*/
+.foto1{border: 3px solid #ddbea9;}
+
+/*gestione footer,tutte le pagine*/
+#col-33{
+    border: 4px ;margin: 25px;
+  }
+  footer{color: black;}
+  footer {background: #ddbea9 ;}
+
+/*gestione, pagina esperienze e abilità*/
+table {
+   border-collapse:collapse
+  }
+  td, th {
+   padding:14px;
+  }
+
+
